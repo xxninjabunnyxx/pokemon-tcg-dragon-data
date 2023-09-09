@@ -1,0 +1,93 @@
+---
+id: ex3-97
+name: Rayquaza ex
+supertype: Pokémon
+subtypes:
+- Basic
+- EX
+hp: '100'
+types:
+- Colorless
+rules:
+- When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+attacks:
+- name: Spiral Growth
+  cost:
+  - Colorless
+  convertedEnergyCost: 1
+  damage: ''
+  text: Flip a coin until you get tails. For each heads, search your discard pile
+    for a basic Energy card and attach it to Rayquaza ex.
+- name: Dragon Burst
+  cost:
+  - Fire
+  - Lightning
+  convertedEnergyCost: 2
+  damage: 40×
+  text: Discard either all Fire Energy or all Lightning Energy attached to Rayquaza
+    ex. This attack does 40 damage times the amount of Fire or Lightning Energy discarded.
+weaknesses:
+- type: Colorless
+  value: "×2"
+resistances:
+- type: Fighting
+  value: "-30"
+- type: Water
+  value: "-30"
+retreatCost:
+- Colorless
+- Colorless
+convertedRetreatCost: 2
+set:
+  id: ex3
+  name: Dragon
+  series: EX
+  printedTotal: 97
+  total: 100
+  legalities:
+    unlimited: Legal
+  ptcgoCode: DR
+  releaseDate: 2003/11/24
+  updatedAt: 2023/02/16 05:47:00
+  images:
+    symbol: https://images.pokemontcg.io/ex3/symbol.png
+    logo: https://images.pokemontcg.io/ex3/logo.png
+number: '97'
+artist: Hikaru Koike
+rarity: Rare Holo EX
+nationalPokedexNumbers:
+- 384
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex3/97.png
+  large: https://images.pokemontcg.io/ex3/97_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex3-97
+  updatedAt: 2023/09/09
+  prices:
+    holofoil:
+      low: 137.99
+      mid: 179.99
+      high: 278.23
+      market: 185.87
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex3-97
+  updatedAt: 2023/09/09
+  prices:
+    averageSellPrice: 26.63
+    lowPrice: 4.83
+    trendPrice: 33.39
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 0.0
+    reverseHoloTrend: 28.88
+    lowPriceExPlus: 30.0
+    avg1: 10.0
+    avg7: 37.31
+    avg30: 54.04
+    reverseHoloAvg1: 35.0
+    reverseHoloAvg7: 25.96
+    reverseHoloAvg30: 26.55

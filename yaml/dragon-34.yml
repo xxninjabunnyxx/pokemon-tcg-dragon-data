@@ -1,0 +1,96 @@
+---
+id: ex3-34
+name: Houndoom
+supertype: Pokémon
+subtypes:
+- Stage 1
+hp: '70'
+types:
+- Darkness
+evolvesFrom: Houndour
+attacks:
+- name: Feint Attack
+  cost:
+  - Darkness
+  - Colorless
+  convertedEnergyCost: 2
+  damage: ''
+  text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon.
+    This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies,
+    or any other effects on that Pokémon.
+- name: Flamethrower
+  cost:
+  - Fighting
+  - Colorless
+  - Colorless
+  convertedEnergyCost: 3
+  damage: '50'
+  text: Discard a Fire Energy card attached to Houndoom.
+weaknesses:
+- type: Fighting
+  value: "×2"
+resistances:
+- type: Psychic
+  value: "-30"
+retreatCost:
+- Colorless
+convertedRetreatCost: 1
+set:
+  id: ex3
+  name: Dragon
+  series: EX
+  printedTotal: 97
+  total: 100
+  legalities:
+    unlimited: Legal
+  ptcgoCode: DR
+  releaseDate: 2003/11/24
+  updatedAt: 2023/02/16 05:47:00
+  images:
+    symbol: https://images.pokemontcg.io/ex3/symbol.png
+    logo: https://images.pokemontcg.io/ex3/logo.png
+number: '34'
+artist: Atsuko Nishida
+rarity: Uncommon
+nationalPokedexNumbers:
+- 229
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex3/34.png
+  large: https://images.pokemontcg.io/ex3/34_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex3-34
+  updatedAt: 2023/09/09
+  prices:
+    normal:
+      low: 0.89
+      mid: 1.49
+      high: 2.99
+      market: 1.77
+      directLow: 1.48
+    reverseHolofoil:
+      low: 10.0
+      mid: 13.45
+      high: 18.45
+      market: 10.78
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex3-34
+  updatedAt: 2023/09/09
+  prices:
+    averageSellPrice: 1.27
+    lowPrice: 0.02
+    trendPrice: 1.23
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 1.0
+    reverseHoloTrend: 8.55
+    lowPriceExPlus: 0.3
+    avg1: 1.42
+    avg7: 1.26
+    avg30: 1.14
+    reverseHoloAvg1: 9.99
+    reverseHoloAvg7: 5.46
+    reverseHoloAvg30: 5.76

@@ -1,0 +1,93 @@
+---
+id: ex3-6
+name: Grumpig
+supertype: Pokémon
+subtypes:
+- Stage 1
+hp: '80'
+types:
+- Psychic
+evolvesFrom: Spoink
+attacks:
+- name: Psychic Boom
+  cost:
+  - Psychic
+  - Colorless
+  convertedEnergyCost: 2
+  damage: 20+
+  text: Does 20 damage plus 10 more damage for each Energy attached to the Defending
+    Pokémon.
+- name: Mind Trip
+  cost:
+  - Psychic
+  - Colorless
+  - Colorless
+  convertedEnergyCost: 3
+  damage: '50'
+  text: If Grumpig and the Defending Pokémon have the same amount of Energy attached
+    to them, the Defending Pokémon is now Confused.
+weaknesses:
+- type: Psychic
+  value: "×2"
+retreatCost:
+- Colorless
+convertedRetreatCost: 1
+set:
+  id: ex3
+  name: Dragon
+  series: EX
+  printedTotal: 97
+  total: 100
+  legalities:
+    unlimited: Legal
+  ptcgoCode: DR
+  releaseDate: 2003/11/24
+  updatedAt: 2023/02/16 05:47:00
+  images:
+    symbol: https://images.pokemontcg.io/ex3/symbol.png
+    logo: https://images.pokemontcg.io/ex3/logo.png
+number: '6'
+artist: Midori Harada
+rarity: Rare Holo
+nationalPokedexNumbers:
+- 326
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex3/6.png
+  large: https://images.pokemontcg.io/ex3/6_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex3-6
+  updatedAt: 2023/09/09
+  prices:
+    holofoil:
+      low: 8.5
+      mid: 10.49
+      high: 19.5
+      market: 13.49
+      directLow: 
+    reverseHolofoil:
+      low: 3.49
+      mid: 5.99
+      high: 9.93
+      market: 5.95
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex3-6
+  updatedAt: 2023/09/09
+  prices:
+    averageSellPrice: 4.8
+    lowPrice: 0.3
+    trendPrice: 4.17
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 0.3
+    reverseHoloTrend: 4.03
+    lowPriceExPlus: 2.65
+    avg1: 2.95
+    avg7: 4.84
+    avg30: 5.22
+    reverseHoloAvg1: 3.95
+    reverseHoloAvg7: 3.98
+    reverseHoloAvg30: 3.18

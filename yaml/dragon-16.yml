@@ -1,0 +1,92 @@
+---
+id: ex3-16
+name: Girafarig
+supertype: Pokémon
+subtypes:
+- Basic
+hp: '70'
+types:
+- Psychic
+attacks:
+- name: Synchronized Search
+  cost:
+  - Colorless
+  convertedEnergyCost: 1
+  damage: ''
+  text: If Girafarig and the Defending Pokémon have the same amount of Energy attached
+    to them, pick any 1 card from your deck and put it into your hand. Shuffle your
+    deck afterward.
+- name: Breaking Impact
+  cost:
+  - Psychic
+  - Colorless
+  convertedEnergyCost: 2
+  damage: ''
+  text: Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Colorless
+    Energy in that Pokémon's Retreat Cost to that Pokémon (after applying effects
+    to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)
+weaknesses:
+- type: Psychic
+  value: "×2"
+retreatCost:
+- Colorless
+convertedRetreatCost: 1
+set:
+  id: ex3
+  name: Dragon
+  series: EX
+  printedTotal: 97
+  total: 100
+  legalities:
+    unlimited: Legal
+  ptcgoCode: DR
+  releaseDate: 2003/11/24
+  updatedAt: 2023/02/16 05:47:00
+  images:
+    symbol: https://images.pokemontcg.io/ex3/symbol.png
+    logo: https://images.pokemontcg.io/ex3/logo.png
+number: '16'
+artist: Midori Harada
+rarity: Rare
+nationalPokedexNumbers:
+- 203
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex3/16.png
+  large: https://images.pokemontcg.io/ex3/16_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex3-16
+  updatedAt: 2023/09/09
+  prices:
+    normal:
+      low: 0.48
+      mid: 0.92
+      high: 1.77
+      market: 0.97
+      directLow: 0.43
+    reverseHolofoil:
+      low: 3.0
+      mid: 5.76
+      high: 7.63
+      market: 5.99
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex3-16
+  updatedAt: 2023/09/09
+  prices:
+    averageSellPrice: 0.31
+    lowPrice: 0.02
+    trendPrice: 0.44
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 0.8
+    reverseHoloTrend: 3.8
+    lowPriceExPlus: 0.2
+    avg1: 0.5
+    avg7: 0.28
+    avg30: 0.45
+    reverseHoloAvg1: 3.19
+    reverseHoloAvg7: 3.5
+    reverseHoloAvg30: 2.52
